@@ -1,0 +1,55 @@
+.ui-bar-f {
+
+  color: black;
+  background-color:#A3E4D7;
+
+}
+
+.ui-body-f {
+
+  font-weight: bold;
+  color: black;
+  background-color:#76D7C4;
+
+}
+
+.ui-page-theme-f {
+
+  font-weight: bold;
+  background-color:#48C9B0;
+
+
+}
+
+.More-Stuff {
+
+  text-align:center;
+
+
+}
+
+.ui-btn.ui-shadow.ui-corner-all {
+
+  background-color: #A3E4D7;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px auto;
+    cursor: pointer;  
+    width: 200px;
+    display: inline-block;
+}
+
+
+.Buttons {
+  text-align: center;
+  display: inline-block;
+}
+
+.Footer {
+  background-color: #A3E4D7;
+
+}
+
+

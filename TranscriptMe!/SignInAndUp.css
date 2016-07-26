@@ -1,0 +1,43 @@
+body {
+	margin: 25;
+}
+
+/* style  */
+
+.Stuff img Teacher-img {
+
+
+}
+
+.Stuff input input{
+    width: 100px;
+    display: inline-block;
+
+}
+
+.More-Stuff {
+    	display: inline-block;
+	    text-align:center;
+	    width:250px;height:100px;
+}
+
+
+
+.ui-btn.ui-shadow.ui-corner-all {
+
+	background-color: #d9b3ff;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px auto;
+    cursor: pointer;	
+    width: 125px;
+    display: inline-block;
+}
+
+.Buttons {
+	text-align: center;
+	display: inline-block;
+}
+

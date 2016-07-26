@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TranscriptMe!</title>
+    <!--************* Scripts ******************-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="homepage.css">
+</head>
+
+<!---************ Menu coding & Body Start **************-->
+
+<body> 
+    <center>
+        <div class="header" data-role="header">
+            <h1>Welcome to TranscriptMe!</h1>
+        </div>
+    </center>
+
+    <ul class="main-menu">      
+        <li><a href="Homepage.html" class="active" data-ajax="false">Home</a></li>
+        <li><a href="Message.html" data-ajax="false">Messages</a></li>
+        <li><a href="creditsinfo.html" data-ajax="false">Credits Info</a></li>
+        <li><a href="Alerts.html" data-ajax="false">Settings</a></li>  
+        <li><a href="Logout.html" data-ajax="false">Logout</a></li>  
+    </ul>
+
+    <div class="transcript-table">
+        <!---************ Mock Table **************-->
+        <table id="classInfo">
+            <th>Class</th>
+            <th>Teacher</th>
+            <th>Grade</th>
+            <th>Credits</th>
+            <th>On track?</th>
+        </table>
+        <div class="Buttons">
+            <button type="button" id="Print">Print</button>
+            <button type="button" id="Email">Email</button>
+        </div>
+    </div>
+    
+    <!---************ Footer **************-->
+    <div data-role="footer">
+        <h2>TranscriptMe!©2016</h2>
+    </div>
+
+
+    <!---************ Scripts for homepage **************-->
+    <script src="homepage.js"></script>
+</body>
+</html>
