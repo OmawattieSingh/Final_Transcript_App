@@ -1,0 +1,33 @@
+ Class	Teacher	Grade	Credits	On track?
+
+CREATE TABLE teacher (grade, class, student); 
+
+INSERT INTO teacher values(98, 102, 'Annie Martinez');
+INSERT INTO teacher values(67, 102, 'Tiffanny Lauren');
+INSERT INTO teacher values(90, 102, 'Marie Ann');
+INSERT INTO teacher values(86, 102, 'Tearah Lopez');
+
+
+
+Algebra 1	Ms. Bradly	91	1	Yes
+Geometry	Mr. Bill	92	1	Yes
+Algebra 11/Trig	Ms. Grech	87	1	Yes
+Living Environment	Ms. Brathwite	91	1	Yes
+Earth Science	Ms. Shumer	87	1	Yes
+Chemistry	Ms. Easter	58	1	No
+Global History 1	Ms. Scarborough	83	1	Yes
+Global History 11	Mr. Otto	85	1	Yes
+U.S History	Mr. Otto	90	1	Yes
+
+select * from grades order by grade desc;
+select * from grades order by grade;
+select avg(grade) from grades 
+
+DELETE from grades where class = 'RBC'; 
+
+ac02jg2lhf68c:~ OmaTechExplorers$ ls -la ~Shows all files~
+ac02jg2lhf68c:TranscriptMe OmaTechExplorers$ sqlite3 transcriptme.db 
+
+sqlite> .headers ON 
+sqlite> .mode column 
+sqlite> SELECT * from grades

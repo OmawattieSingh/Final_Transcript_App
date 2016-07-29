@@ -1,0 +1,86 @@
+h2 {
+  text-align: center;
+  position: relative; 
+  color: black;
+}
+
+.ui-title {
+  color: white;
+  opacity: 50%;
+  background-color: #A3E4D7;
+  padding: 16px 32px;
+  width: 100%;
+}
+
+.ui-header.ui-bar-inherit.ui-bar-f {
+  opacity: 0%;
+    color: white;
+  opacity: 50%;
+  background-color: #A3E4D7;
+  padding: 16px 32px;
+  width: 100%;
+}
+
+
+}
+
+.ui-body-f {
+
+  font-weight: bold;
+  color: black;
+
+
+
+
+}
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ui-page-theme-f {
+
+  font-weight: bold;
+
+}
+
+
+
+.More-Stuff {
+
+  text-align:center;
+
+
+}
+
+.ui-btn.ui-shadow.ui-corner-all {
+
+  background-color: #A3E4D7;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px auto;
+    cursor: pointer;  
+    width: 200px;
+    display: inline-block;
+}
+
+
+.Buttons {
+  text-align: center;
+  display: inline-block;
+}
+
+.Footer {
+  background-color: #A3E4D7;
+
+}

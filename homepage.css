@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+/* Header style  */
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    position: center;
+    height: 0%;
+    overflow: auto;
+}
+
+/* Menu style  */
+
+ul.main-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.main-menu li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+.main-menu li a.active {
+    background-color: #d9b3ff;
+    color: white;
+}
+
+.main-menu li a:hover:not(.active) {
+    background-color: #f2e6ff;
+    color: white;
+}
+
+/* Table style  */
+
+.transcript-table {
+	margin-left:25%;
+	padding:1px 16px;
+	height:1000px; 
+	margin-top: 30px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #d9b3ff;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2e6ff;
+}
+
+
+/* Button style  */
+
+/*input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}*/
+
+ .ui-btn.ui-shadow.ui-corner-all {
+
+	background-color: #d9b3ff;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px auto;
+    cursor: pointer;	
+    width: 100px;
+    display: inline-block;
+}
+
+.Buttons {
+	text-align: center;
+}
+
+

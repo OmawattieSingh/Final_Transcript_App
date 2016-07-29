@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TranscriptMe!</title>
+    <!--************* Scripts ******************-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="Message.css">
+</head>
+
+<!--************* Body ******************-->
+
+<body>
+    <center>
+        <div class="header" data-role="header">
+            <h1>Welcome to TranscriptMe!</h1>
+        </div>
+    </center>
+
+    <ul class="main-menu">      
+        <li><a href="Homepage.html"  data-ajax="false">Home</a></li>
+        <li><a href="Message.html" class="active" data-ajax="false">Messages</a></li>
+        <li><a href="creditsinfo.html" data-ajax="false">Credits Info</a></li>
+        <li><a href="Alerts.html" data-ajax="false">Settings</a></li>  
+        <li><a href="Logout.html" data-ajax="false">Logout</a></li>  
+    </ul>
+
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+
+
+<!--************* Message ******************-->
+
+
+<form action="/html/tags/html_form_tag_action.cfm" method="post">
+<textarea name="comments" id="comments" style="width:96%;height:90px;background-color:#e6e6e6;color:black;border:none;padding:2%;font:22px/30px sans-serif;">
+Write your message here!
+</textarea>
+<button type="button" onclick="alert('YOUR MESSAGE HAS BEEN SENT')">SUBMIT</button>
+
+
+</form>
+<center>
+<!--************* Emails ******************-->
+
+
+<p style="color:blue;"> Need a teachers email? Look down below!</p></center>
+
+<div>
+<table style="width:60%">
+  <tr>
+    <th> Firstname</th>
+    <th> Email</th>
+  </tr>
+  <tr>
+    <td> Ms.Bradley</td>
+    <td> bradleym@mail.com</td>
+  </tr>
+  <tr>
+    <td> Mr.Bill </td>
+    <td> bill01@mail.com</td>
+  </tr>
+  <tr>
+      <td> Ms.Grech</td>
+      <td> r.grech@mail.com</td>
+  </tr>
+  <tr>
+      <td> Ms.Brathwite</td>
+      <td> brathwite.w@mail.com</td>
+  </tr>
+  <tr>
+      <td> Ms.Shumer</td>
+      <td> shumerb@mail.com</td>
+  </tr>
+  <tr>
+      <td>Ms.Easter</td>
+      <td>easter98@mail.com</td>
+  </tr>
+    <td> Ms.Scarborough</td>
+    <td>s.borough@mail.com</td>
+  </tr>
+  <tr>
+    <td>Mr.Otto</td>
+    <td>otto45@mail.com</td>
+  </tr>
+</table>
+</div>
+</div>
+<!---************ Footer **************-->
+<div data-role="footer">
+  <h2>TranscriptMe!©2016</h2>
+</div>
+
+
+</body>
+</html>

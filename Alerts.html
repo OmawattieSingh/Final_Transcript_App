@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<title>TranscriptMe!</title>
+
+<!--************** Jquery stuff ****************-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<!--************** Menu Style ****************-->
+
+<style>
+
+h1 {
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    position: center;
+    height: 0%;
+    overflow: auto;
+
+
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #d9b3ff;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #f2e6ff;
+    color: white;
+}
+
+</style>
+</head>
+
+
+
+<body>
+
+<center>
+  <div data-role="header">
+    <h1>Welcome to TranscriptMe!</h1>
+  </div>
+</center>
+
+<ul>
+  <li><a href="Homepage.html" data-ajax="false">Home</a></li>
+  <li><a href="Message.html" data-ajax="false">Messages</a></li>
+  <li><a href="creditsinfo.html" data-ajax="false">Credits Info</a></li>
+  <li><a class="active" href="Alerts.html" data-ajax="false">Settings</a></li>  
+  <li><a href="Logout.html" data-ajax="false">Logout</a></li>  
+</ul>
+
+
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+
+
+<!--alerts-->
+<center>
+  <div data-role="main" class="ui-content">
+    <form method="post" action="demoform.asp">
+      <fieldset data-role="controlgroup">
+        <legend>Notifications:</legend>
+        <label for="risk of failing">Risk Of Failing</label>
+        <input type="checkbox" name="favcolor" id="risk of failing" value="risk of failing">
+        <label for="email">New Messages</label>
+        <input type="checkbox" name="alert" id="email" value="email">
+        <label for="new grades">New Grades</label>
+        <input type="checkbox" name="alert" id="new grades" value="new grades">
+      </fieldset>
+    </form>
+  </div>
+
+        <div data-role="main" class="ui-content">
+          <legend>Change Password:</legend>
+          
+          <p style=" text-align:center">Please Type In Your Current Password</p>
+          
+          <input type= "text" name="text1" id="Current Password" Value="" placeholder="Current Password" style="text-align: center">
+        </div>
+
+        <div data-role="main" class="ui-content">
+          <p style=" text-align:center">Please Type In A New Password</p>
+          <input type= "text" name="text1" id="Current Password" Value="" placeholder="New Password" style="text-align: center">
+        </div>
+
+        <div data-role="main" class="ui-content">
+          <p style=" text-align:center">Please Re-Type In Your New Password</p>
+          <input type= "text" name="text1" id="Current Password" Value="" placeholder="Re-Type New Password" style="text-align: center">
+        </div>
+
+        <center> 
+          <div style="width:500px;height:500px;">
+              <button onclick="myFunction()">Done</button>
+        <script>
+        function myFunction() {
+            alert("Congratulations Password Change Success!");
+        }
+        </script>
+</div>
+</center>
+
+
+</center>
+</div>
+
+
+
+<!---************ Footer **************-->
+
+  <div data-role="footer">
+    <h2>TranscriptMe!©2016</h2>
+  </div>
+
+
+
+	</body>
+</html>

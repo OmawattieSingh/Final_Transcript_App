@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TranscriptMe!</title>
+    <!--************* Scripts ******************-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="SignInAndUp.css">
+</head>
+
+<!---************ Menu coding & Body Start **************-->
+
+<body> 
+
+    <center>
+        <div class="header" data-role="header">
+            <h1>Welcome to TranscriptMe!</h1>
+        </div>
+    </center>
+
+<div class="Stuff">
+
+    <!---************ Images **************-->
+
+    <center>
+    <img src="Student.png" class="Student-img">
+    </center>
+
+        <!---************ Sign In's **************-->
+
+        <center>
+            <div class="More-Stuff">
+                <input type="text" id="Email" placeholder="Email">
+                <input type="password" id="Password" placeholder="Password">
+            </div>
+
+           <p>
+            <div class="Buttons">
+                <button type="button" id="signin">Sign In</button>
+                <button type="button" id="create">Create</button>
+            </div>
+            <br>
+             <a href="Forgot.html" data-ajax="false">Forgot Password</a>
+        </center>
+
+</div>
+
+<!---************ Footer **************-->
+
+    <div data-role="footer">
+        <h2>TranscriptMe! 2016</h2>
+    </div>
+
+<!---************ Scripts for SigninandUp **************-->
+
+<script src="signinandup.js"></script>
+</body>
+<!--******** End *********-->
+</html>

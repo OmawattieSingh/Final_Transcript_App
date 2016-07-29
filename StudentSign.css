@@ -1,0 +1,24 @@
+.More-Stuff {
+	    text-align:center;
+
+}
+
+.ui-btn.ui-shadow.ui-corner-all {
+
+	background-color: #d9b3ff;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px auto;
+    cursor: pointer;	
+    width: 125px;
+
+}
+
+
+.Buttons {
+	text-align: center;
+
+}
+
